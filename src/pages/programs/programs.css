@@ -1,0 +1,964 @@
+/* programs.css */
+/* Programs.css */
+
+.project-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-section {
+  background-color: darkblue; /* Hero background color */
+  color: white; /* Text color */
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 2.5rem; /* Size for the title */
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.hero-text {
+  font-size: 1.25rem; /* Size for the description */
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center align */
+}
+
+.projects-section {
+  padding: 4rem 1rem;
+}
+
+.project-card {
+  background-color: #f9f9f9; /* Card background color */
+  padding: 2rem; /* Padding for the card */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  transition: box-shadow 0.3s ease; /* Transition effect */
+}
+
+.project-card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Hover shadow */
+}
+
+.project-image {
+  width: 100%; /* Full width */
+  height: 60vh; /* Fixed height */
+  object-fit: cover; /* Cover the area */
+  border-radius: 8px; /* Rounded corners for image */
+  margin-bottom: 3rem; /* Space below image */
+}
+
+.project-title {
+  font-size: 1.75rem; /* Title size */
+  font-weight: bold; /* Bold text */
+  margin-bottom: 2rem; /* Space below title */
+}
+
+.project-cost {
+  font-size: 1.25rem; /* Cost size */
+  color: green; /* Cost color */
+  font-weight: bold;
+}
+
+.project-description {
+  margin-bottom: 2rem;
+}
+
+.project-details {
+  color: #666; /* Muted color for details */
+  margin-bottom: 0.5rem; /* Space below details */
+}
+
+.donatess-button {
+  background-color: transparent; /* Button background */
+  color: darkblue; /* Button text color */
+  border-radius: 8px; /* Rounded corners */
+  padding: 0.5rem 1rem; /* Padding */
+  border: solid greenyellow; /* No border */
+  cursor: pointer; /* Pointer cursor */
+  font-weight: bold; /* Bold text */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.donatess-button:hover {
+  background-color: darkgreen; /* Darker green on hover */
+}
+
+@media (max-width: 768px) {
+  .project-card {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+
+
+/* clothing style css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.max-h-60 {
+  max-height: 35rem; 
+  height: auto; 
+}
+
+.bg-white {
+  background-color: #ffffff; 
+}
+
+.text-brown {
+  color: darkblue; 
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+/* Spacing Utilities */
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+
+.bg-secondary {
+  background-color: #f8f9fa; 
+}
+
+.bg-card {
+  background-color: #ffffff; 
+}
+
+.bg-accent {
+  background-color: #4a5568; 
+}
+
+/* Text Colors */
+.text-primary-foreground {
+  color: #ffffff; 
+}
+
+.text-accent {
+  color: #4a5568; 
+}
+
+.text-foreground {
+  color: #333333; 
+}
+
+.text-black {
+  color: #000000; 
+}
+
+/* Font Sizes */
+.title {
+  font-size: 2.5rem; 
+}
+
+.subtitle {
+  font-size: 1.25rem; 
+}
+
+.text-lg {
+  font-size: 1.125rem; 
+}
+
+.text-xl {
+  font-size: 1.25rem; 
+}
+
+.text-3xl {
+  font-size: 1.875rem; 
+}
+
+.text-left {
+  text-align: left;
+}
+
+.list-item {
+  margin-bottom: 1rem; 
+}
+
+/* Font Weight */
+.font-bold {
+  font-weight: bold;
+}
+
+/* Margin Utilities */
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+/* Line Height */
+.leading-relaxed {
+  line-height: 1.625;
+}
+
+/* Width Utilities */
+.w-full {
+  width: 100%;
+}
+
+.max-w-4xl {
+  max-width: 64rem; 
+}
+
+/* Border Radius */
+.rounded-lg {
+  border-radius: 0.5rem; 
+}
+
+/* Shadow */
+.shadow-xl {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+/* Button Styles */
+.button-default {
+  padding: 0.75rem 1.5rem;
+  background-color: green; 
+  color: white; 
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-default:hover {
+  background-color: #2d3748; 
+}
+
+.button-outline {
+  padding: 0.75rem 1.5rem;
+  background-color: green; 
+  color: white; 
+  border: none; 
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button-outline:hover {
+  background-color: darkblue; 
+  color: white; 
+}
+
+/* Animations */
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in forwards;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.5s ease forwards;
+}
+
+/* Keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* daily feeding program css */
+
+/* programs.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.dailyfeeding-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+/* Spacing Utilities */
+.dailyfeeding-py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.dailyfeeding-py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.dailyfeeding-bg-secondary {
+  background-color: #f8f9fa; 
+}
+
+.dailyfeeding-bg-card {
+  background-color: #ffffff; 
+}
+
+
+/* Text Colors */
+.dailyfeeding-text-primary-foreground {
+  color: #ffffff; 
+}
+
+.dailyfeeding-text-accent {
+  color: #4a5568; 
+}
+
+.dailyfeeding-text-foreground {
+  color: #333333; 
+}
+
+.dailyfeeding-text-muted-foreground {
+  color: #6c757d; 
+}
+
+/* Font Sizes */
+.dailyfeeding-title {
+  font-size: 2.5rem; 
+}
+
+.dailyfeeding-subtitle {
+  font-size: 1.25rem; 
+}
+
+.dailyfeeding-text-lg {
+  font-size: 1.125rem; 
+}
+
+.dailyfeeding-text-xl {
+  font-size: 1.25rem; 
+}
+
+.dailyfeeding-text-3xl {
+  font-size: 1.875rem; 
+}
+
+/* Font Weight */
+.font-bold {
+  font-weight: bold;
+}
+
+/* Margin Utilities */
+.dailyfeeding-mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.dailyfeeding-mb-8 {
+  margin-bottom: 2rem;
+}
+
+/* Line Height */
+.leading-relaxed {
+  line-height: 1.625;
+}
+
+/* Width Utilities */
+.w-full {
+  width: 100%;
+}
+
+.dailyfeeding-max-w-4xl {
+  max-width: 64rem; 
+}
+
+/* Border Radius */
+.rounded-lg {
+  border-radius: 0.5rem; 
+}
+
+/* Shadow */
+.dailyfeeding-shadow-xl {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+/* Button Styles */
+.button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.button.default {
+  background-color: #4a5568; 
+  color: white;
+}
+
+/* Animations */
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in forwards;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.5s ease forwards;
+}
+
+/* Keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* medical file */
+
+/* programs.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.medical-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+/* Spacing Utilities */
+.medical-py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.medical-py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Background Colors */
+
+.medical-bg-card {
+  background-color: #ffffff; 
+}
+
+
+/* Text Colors */
+.medical-text-primary-foreground {
+  color: #ffffff; 
+}
+
+.medical-text-accent {
+  color: #4a5568; 
+}
+
+.medical-text-foreground {
+  color: #333333; 
+}
+
+.medical-text-muted-foreground {
+  color: #6c757d; 
+}
+
+/* Font Sizes */
+.medical-title {
+  font-size: 2.5rem; 
+}
+
+.medical-subtitle {
+  font-size: 1.25rem; 
+}
+
+.medical-text-lg {
+  font-size: 1.125rem; 
+}
+
+.medical-text-xl {
+  font-size: 1.25rem; 
+}
+
+.medical-text-3xl {
+  font-size: 1.875rem; 
+}
+
+/* Font Weight */
+.font-bold {
+  font-weight: bold;
+}
+
+/* Margin Utilities */
+.medical-mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.medical-mb-8 {
+  margin-bottom: 2rem;
+}
+
+/* Line Height */
+.leading-relaxed {
+  line-height: 1.625;
+}
+
+/* Width Utilities */
+.w-full {
+  width: 100%;
+}
+
+.medical-max-w-4xl {
+  max-width: 64rem; 
+}
+
+/* Border Radius */
+.rounded-lg {
+  border-radius: 0.5rem; 
+}
+
+/* Shadow */
+.medical-shadow-xl {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+/* Button Styles */
+.button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.button.default {
+  background-color: #4a5568; 
+  color: white;
+}
+
+/* Animations */
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in forwards;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.5s ease forwards;
+}
+
+/* Keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* education */
+
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.primary-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+/* Spacing Utilities */
+.primary-py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.primary-py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Background Colors */
+
+.primary-bg-card {
+  background-color: #ffffff; 
+}
+
+
+/* Text Colors */
+.primary-text-primary-foreground {
+  color: #ffffff; 
+}
+
+.primary-text-accent {
+  color: #4a5568; 
+}
+
+.primary-text-foreground {
+  color: #333333; 
+}
+
+.primary-text-muted-foreground {
+  color: #6c757d; 
+}
+
+/* Font Sizes */
+.primary-title {
+  font-size: 2.5rem; 
+}
+
+.primary-subtitle {
+  font-size: 1.25rem; 
+}
+
+.primary-text-lg {
+  font-size: 1.125rem; 
+}
+
+.primary-text-xl {
+  font-size: 1.25rem; 
+}
+
+.primary-text-3xl {
+  font-size: 1.875rem; 
+}
+
+/* Font Weight */
+.font-bold {
+  font-weight: bold;
+}
+
+/* Margin Utilities */
+.primary-mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.primary-mb-8 {
+  margin-bottom: 2rem;
+}
+
+/* Line Height */
+.leading-relaxed {
+  line-height: 1.625;
+}
+
+/* Width Utilities */
+.w-full {
+  width: 100%;
+}
+
+.primary-max-w-4xl {
+  max-width: 64rem; 
+}
+
+/* Border Radius */
+.rounded-lg {
+  border-radius: 0.5rem; 
+}
+
+/* Shadow */
+.primary-shadow-xl {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+/* Button Styles */
+.button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.button.default {
+  background-color: #4a5568; 
+  color: white;
+}
+
+/* Animations */
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in forwards;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.5s ease forwards;
+}
+
+/* Keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* waterwell file */
+
+/* programs.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.waterwell-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+  max-height: 35rem;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+/* Spacing Utilities */
+.waterwell-py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.waterwell-py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Background Colors */
+
+.waterwell-bg-card {
+  background-color: #ffffff; 
+}
+
+
+/* Text Colors */
+.waterwell-text-primary-foreground {
+  color: #ffffff; 
+}
+
+.waterwell-text-accent {
+  color: darkblue; 
+}
+
+.waterwell-text-foreground {
+  color: #333333; 
+}
+
+/* Font Sizes */
+.waterwell-title {
+  font-size: 2.5rem; 
+}
+
+.waterwell-subtitle {
+  font-size: 1.25rem; 
+}
+
+.waterwell-text-lg {
+  font-size: 1.125rem; 
+}
+
+.waterwell-text-xl {
+  font-size: 1.25rem; 
+}
+
+.waterwell-text-3xl {
+  font-size: 1.875rem; 
+}
+
+/* Font Weight */
+.font-bold {
+  font-weight: bold;
+}
+
+/* Margin Utilities */
+.waterwell-mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.waterwell-mb-8 {
+  margin-bottom: 2rem;
+}
+
+/* Line Height */
+.leading-relaxed {
+  line-height: 1.625;
+}
+
+/* Width Utilities */
+.w-full {
+  width: 100%;
+}
+
+.waterwell-max-w-4xl {
+  max-width: 64rem; 
+}
+
+/* Border Radius */
+.rounded-lg {
+  border-radius: 0.5rem; 
+}
+
+/* Shadow */
+.waterwell-shadow-xl {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+/* Button Styles */
+.button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.button.default {
+  background-color: green; 
+  color: white;
+}
+
+/* Animations */
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in forwards;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.5s ease forwards;
+}
+
+/* Keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

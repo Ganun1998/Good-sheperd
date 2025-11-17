@@ -1,0 +1,253 @@
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.bg-white {
+  background-color: #ffffff; 
+}
+
+.text-brown {
+  color: darkblue; 
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Donate.css */
+
+/* Style for the list items in the donation section */
+ul.list-disc li {
+  margin-bottom: 1rem; /* Adjust the value as needed for spacing */
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 1rem; /* Adjust as necessary */
+}
+
+.text-4xl {
+  font-size: 2.5rem; /* Adjust according to your design */
+}
+
+.text-5xl {
+  font-size: 3rem; /* Adjust according to your design */
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.md\:grid-cols-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.md\:grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.bg-card {
+  background-color: var(--card); /* Customize based on your theme */
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-accent {
+  border-color: var(--accent); /* Customize based on your theme */
+}
+
+.hover\:bg-accent:hover {
+  background-color: var(--accent); /* Customize based on your theme */
+}
+
+.hover\:text-accent-foreground:hover {
+  color: var(--accent-foreground); /* Customize based on your theme */
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.text-accent {
+  color: var(--accent); /* Customize based on your theme */
+}
+
+.text-foreground {
+  margin-bottom: 10px;
+  color: var(--foreground); /* Customize based on your theme */
+}
+
+.bg-secondary {
+  background-color: var(--secondary); /* Customize based on your theme */
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.text-muted-foreground {
+  color: var(--muted-foreground); /* Customize based on your theme */
+}
+
+.bg-foreground {
+  background-color: var(--foreground); /* Customize based on your theme */
+}
+
+.bg-accent {
+  background-color: var(--accent); /* Customize based on your theme */
+}
+
+.text-accent-foreground {
+  color: var(--accent-foreground); /* Customize based on your theme */
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.text-lg {
+  font-size: 1.125rem; /* Adjust according to your design */
+}
+
+.text-sm {
+  font-size: 0.875rem; /* Adjust according to your design */
+}
+
+.text-3xl {
+  font-size: 1.875rem; /* Adjust according to your design */
+}
+
+.text-2xl {
+  font-size: 1.5rem; /* Adjust according to your design */
+}
+
+.text-xl {
+  font-size: 1.25rem; /* Adjust according to your design */
+}
+
+.grid.md\:grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.bg-accent\/20 {
+  background-color: rgba(255, 0, 0, 0.2); /* Customize based on your theme */
+}
+
+.bg-foreground\/20 {
+  background-color: rgba(0, 0, 0, 0.2); /* Customize based on your theme */
+}
+
+.bg-foreground\/10 {
+  background-color: rgba(0, 0, 0, 0.1); /* Customize based on your theme */
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s; /* Define your animation */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.5s; /* Define your animation */
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+/* Donate.css */
+
+/* Basic styling for the donate button */
+.donate-button {
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  padding: 16px 32px;
+  background-color: #f5a623; /* Primary button color */
+  color: #ffffff; /* Text color */
+  border: none;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Hover effect */
+.donate-button:hover {
+  background-color: #d88a1a; /* Darker shade for hover */
+  transform: translateY(-3px);
+}
+
+/* Focus effect */
+.donate-button:focus {
+  outline: 2px solid #f5a623;
+  outline-offset: 2px;
+}
+
+/* Active button effect (when clicked) */
+.donate-button:active {
+  background-color: #c97715; /* Slightly darker color on click */
+  transform: translateY(0);
+}
+
+/* Button text alignment for mobile */
+@media (max-width: 768px) {
+  .donate-button {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Outfit', sans-serif;
+}
+
+:root {
+
+--foreground: hsl(0, 0%, 15%);
+
+--card: hsl(0, 0%, 100%);
+--card-foreground: hsl(0, 0%, 15%);
+
+--popover: hsl(0, 0%, 100%);
+--popover-foreground: hsl(0, 0%, 15%);
+
+/* Red for passion and urgency */
+--primary: hsl(0, 85%, 45%);
+--primary-foreground: hsl(0, 0%, 100%);
+
+/* Yellow for hope and optimism */
+--accent: darkblue;
+--accent-foreground: white;
+
+--secondary: hsl(0, 0%, 95%);
+--secondary-foreground: hsl(0, 0%, 15%);
+
+--muted: hsl(0, 0%, 92%);
+--muted-foreground: hsl(0, 0%, 40%);
+
+--destructive: hsl(0, 84%, 60%);
+--destructive-foreground: hsl(0, 0%, 100%);
+
+--border: hsl(0, 0%, 88%);
+--input: hsl(0, 0%, 88%);
+--ring: hsl(0, 85%, 45%);
+
+--radius: 0.5rem;
+
+/* Black footer */
+--footer-bg: darkblue;
+--footer-fg: hsl(0, 0%, 90%);
+
+/* Gradient overlays */
+--gradient-overlay: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.6));
+}
+
+.dark {
+--background: hsl(0, 0%, 10%);
+--foreground: hsl(0, 0%, 95%);
+
+--card: hsl(0, 0%, 12%);
+--card-foreground: hsl(0, 0%, 95%);
+
+--popover: hsl(0, 0%, 12%);
+--popover-foreground: hsl(0, 0%, 95%);
+
+--primary: hsl(0, 85%, 50%);
+--primary-foreground: hsl(0, 0%, 100%);
+
+
+--accent-foreground: hsl(0, 0%, 10%);
+
+--secondary: hsl(0, 0%, 18%);
+--secondary-foreground: hsl(0, 0%, 95%);
+
+--muted: hsl(0, 0%, 18%);
+--muted-foreground: hsl(0, 0%, 60%);
+
+--destructive: hsl(0, 84%, 60%);
+--destructive-foreground: hsl(0, 0%, 100%);
+
+--border: hsl(0, 0%, 20%);
+--input: hsl(0, 0%, 20%);
+--ring: hsl(0, 85%, 50%);
+
+--footer-bg: darkblue;
+--footer-fg: hsl(0, 0%, 90%);
+}
+
+body {
+background-color: var(--background);
+color: var(--foreground);
+}

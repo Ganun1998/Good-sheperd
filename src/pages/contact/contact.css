@@ -1,0 +1,158 @@
+/* contact.css */
+
+.contact-container {
+  padding: 6rem 0; /* Add vertical padding */
+}
+
+.contact-title {
+  color: darkblue;
+  font-size: 2.25rem; /* Large title */
+  font-weight: bold;
+  margin-bottom: 5rem; /* Space below title */
+  text-align: center; /* Center the title */
+}
+.contact-grid {
+  display: grid;
+ grid-template-columns: 1fr 1fr;
+row-gap: 10rem;     /* ← huge gap */
+margin-bottom: 5rem;
+}
+
+
+.contact-information,
+.contact-form {
+  width: 100%; /* Each takes half of the available width */
+  padding: 1.5rem; /* Inner padding */
+  background: white; /* White background */
+  border-radius: 0.5rem; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+
+.contact-information h3,
+.contact-form h2 {
+  margin-bottom: 0.5rem; /* Space below headings */
+  color: darkblue;
+}
+
+.information-item {
+  display: flex;
+  align-items: left;
+  gap: 2rem; /* Space between icon and text */
+  margin-bottom: 3.5rem; /* Space between items */
+}
+
+.icon-container {
+  background: rgba(255, 100, 100, 0.2); /* Light accent background */
+  border-radius: 0.25rem; /* Round the icon background */
+}
+
+.office-hours {
+  background: #f9f9f9; /* Light secondary background */
+  padding: 1rem; /* Padding for office hours */
+}
+
+.office-hours p {
+  color: darkblue;
+  margin: 0.75rem 0; /* Space between office hours */
+}
+
+.button {
+  width: 100%; /* Full width for the button */
+  margin-top: 4rem;
+  background-color: darkblue;
+  color: white;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+
+/* Make form labels always start from the left */
+.contact-form label {
+  text-align: left;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+/* Make input fields wider */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  max-width: 600px; /* adjust for wider inputs */
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Center the form content */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.contact-map {
+  width: 100%;
+  max-width: 1200px; /* optional max width */
+  margin: 0 auto; /* center map */
+  position: relative; /* for responsive iframe */
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.contact-map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .contact-grid {
+    display: grid; /* keep as grid */
+    grid-template-columns: 1fr; /* single column for stacking */
+    row-gap: 2rem; /* space between info and form */
+  }
+
+  .contact-information,
+  .contact-form {
+    width: 100%; /* full width */
+    padding: 1rem; /* slightly smaller padding for mobile */
+    margin-top: 4rem;
+  }
+
+  .contact-title {
+    font-size: 2rem; /* slightly smaller on mobile */
+    margin-bottom: 3rem; /* reduce space below title */
+  }
+
+  .information-item {
+    margin-bottom: 2rem; /* less spacing on small screens */
+    flex-direction: row; /* icons + text stay side by side */
+    gap: 0.75rem;
+  }
+}
+
+/* Extra small screens (phones) */
+@media (max-width: 480px) {
+  .contact-title {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+  }
+
+  .contact-information,
+  .contact-form {
+    padding: 0.75rem;
+  }
+
+  .information-item {
+    gap: 0.5rem;
+  }
+}
