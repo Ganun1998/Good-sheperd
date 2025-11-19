@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "../components/ui/button";
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import profile from "../assets/profile.png"
+import profile1 from "../assets/profile1.png"
 import './components.css';
 
 const Navigation = () => {
@@ -45,7 +45,7 @@ const Navigation = () => {
             <Link to="/" className="logo">
               {/* Logo Image */}
               <img
-                src={profile}
+                src={profile1}
                 alt="Good Shepherd Logo"
               />
               {/* Logo Text */}
