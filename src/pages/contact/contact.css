@@ -11,11 +11,12 @@
   margin-bottom: 5rem; /* Space below title */
   text-align: center; /* Center the title */
 }
+
 .contact-grid {
   display: grid;
- grid-template-columns: 1fr 1fr;
-row-gap: 10rem;     /* ← huge gap */
-margin-bottom: 5rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-bottom: 5rem;
 }
 
 
@@ -80,9 +81,9 @@ margin-bottom: 5rem;
 .contact-form input,
 .contact-form textarea {
   width: 100%;
-  max-width: 600px; /* adjust for wider inputs */
   padding: 0.5rem;
   margin-bottom: 1.5rem;
+  box-sizing: border-box; /* prevents overflow */
 }
 
 /* Center the form content */
@@ -116,9 +117,8 @@ margin-bottom: 5rem;
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .contact-grid {
-    display: grid; /* keep as grid */
-    grid-template-columns: 1fr; /* single column for stacking */
-    row-gap: 2rem; /* space between info and form */
+    grid-template-columns: 1fr; /* stack */
+    gap: 2.5rem;
   }
 
   .contact-information,

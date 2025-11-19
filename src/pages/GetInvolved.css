@@ -153,3 +153,22 @@
   background-color: var(--foreground);
   color: var(--accent-foreground);
 }
+
+/* Force the grid to be a single column on small screens */
+.opportunities-section .grid {
+  grid-template-columns: 1fr !important; /* full width */
+}
+
+/* Medium screens */
+@media (min-width: 768px) {
+  .opportunities-section .grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+/* Large screens */
+@media (min-width: 1024px) {
+  .opportunities-section .grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
