@@ -5,7 +5,6 @@ import { Button } from "../components/ui/button";
 import { Link } from "react-router-dom";
 import { Plane, Calendar, Users, HandHeart, Share2, Megaphone } from "lucide-react";
 import './GetInvolved.css'; // Import the CSS file
-import "./Programs/programs.css";
 
 const GetInvolved = () => {
   const opportunities = [
