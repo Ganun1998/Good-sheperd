@@ -4,10 +4,10 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  base: process.env.VITE_BASE_PATH || '/Good-sheperd/', // <-- Add this for GitHu
+  base: process.env.VITE_BASE_PATH || "/Good-sheperd",
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
-    },
+    }, 
   },
 });
